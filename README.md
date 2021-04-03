@@ -1,3 +1,7 @@
+---
+title-heading: false
+---
+
 Catharine & Sean 
 
 ### Schedule 
