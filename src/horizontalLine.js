@@ -1,7 +1,6 @@
-import React from 'react';
+import React from "react";
 
 const HorizontalLine = ({ color }) => {
-
   return (
     <hr
       style={{
@@ -10,7 +9,6 @@ const HorizontalLine = ({ color }) => {
       }}
     />
   );
-
-}
+};
 
 export default HorizontalLine;

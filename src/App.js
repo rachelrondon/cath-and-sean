@@ -1,20 +1,19 @@
-import React, { Component } from 'react';
-import './App.css';
-import LandingPage from './landingpage';
-import Schedule from './schedule';
-import NavBar from './navbar.js';
-import Travel from './travel';
-import ThingsToDo from './thingsToDo';
-import Registry from './registry';
-import Photos from './photos';
+import React, { Component } from "react";
+import "./App.css";
+import LandingPage from "./landingpage";
+import Schedule from "./schedule";
+import NavBar from "./navbar.js";
+import Travel from "./travel";
+import ThingsToDo from "./thingsToDo";
+import Registry from "./registry";
+import Photos from "./photos";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 class App extends Component {
-
   render() {
     return (
       <div className="App">
-      <NavBar />
+        <NavBar />
         <BrowserRouter>
           <Switch>
             <Route path="/" component={LandingPage} exact />

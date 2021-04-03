@@ -11,18 +11,18 @@
 .App .photos-page .photos {
   display: flex;
   display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -ms-flexbox;
   flex-direction: column;
 }
 
 .App .photos-page .photos .photos-row {
   display: flex;
   display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -ms-flexbox;
   flex-direction: row;
   margin-top: 5rem;
   margin-bottom: 5rem;
@@ -49,26 +49,26 @@
 }
 
 @media (min-width: 1024px) {
-  @media not all and (min-resolution:.001dpcm) {
-  @media {
-    .App .photos-page .photos-row .rotate{
-      -webkit-transform:rotate(90deg);
-      -moz-transform: rotate(90deg);
-      -ms-transform: rotate(90deg);
-      -o-transform: rotate(90deg);
-      transform: rotate(90deg);
-      margin-top: 3.75rem;
+  @media not all and (min-resolution: 0.001dpcm) {
+    @media {
+      .App .photos-page .photos-row .rotate {
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+        margin-top: 3.75rem;
+      }
     }
-  }}
+  }
 }
-
 
 .registry {
   display: flex;
   display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -ms-flexbox;
   flex-direction: column;
   list-style-type: none;
   margin: 0 auto;
@@ -82,7 +82,7 @@
 
 .registry ul {
   list-style-type: none;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   color: #041e42;
   font-size: 1.5rem;
   padding-left: 0;
@@ -91,18 +91,18 @@
 .photos {
   display: flex;
   display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -ms-flexbox;
   flex-direction: row;
 }
 
 .photos .photos-row {
   display: flex;
   display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -ms-flexbox;
   flex-direction: column;
   padding: 5rem;
 }
@@ -112,9 +112,9 @@
   margin-top: 5rem;
   display: flex;
   display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -ms-flexbox;
   flex-direction: row;
   width: 60rem;
   justify-content: space-between;
@@ -129,22 +129,22 @@
   font-size: 4.5rem;
   display: flex;
   display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -ms-flexbox;
   flex-direction: column;
   margin: 1rem;
 }
 
-.App .landing-page .names  {
+.App .landing-page .names {
   display: flex;
   display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -ms-flexbox;
   flex-direction: column;
   align-items: center;
-  font-family: 'Monsieur La Doulaise', cursive;
+  font-family: "Monsieur La Doulaise", cursive;
   font-size: 4.5rem;
   color: #041e42;
   margin-top: 10rem;
@@ -154,7 +154,7 @@
 .App .landing-page .names .name {
   font-size: 4.5rem;
   font-weight: 400;
-  line-height: .5;
+  line-height: 0.5;
 }
 
 .App .nav-bar .landing-page-details .wedding-date {
@@ -166,45 +166,44 @@
   margin: 1rem;
 }
 
-
 .App .nav-bar .MuiToolbar-root {
   align-items: center;
   color: #041e42;
   display: flex;
   display: -webkit-box;
-     display: -moz-box;
-     display: -ms-flexbox;
-     display: -ms-flexbox;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -ms-flexbox;
   flex-direction: column;
   margin: 0;
   padding: 0;
 }
 
 .App .nav-bar .MuiTypography-root {
-  font-family: 'Monsieur La Doulaise', cursive;
+  font-family: "Monsieur La Doulaise", cursive;
 }
 
 .App .nav-bar .MuiToolbar-root .date-details {
   display: flex;
   display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -ms-flexbox;
   flex-direction: row;
   width: 100%;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .App .nav-bar .MuiToolbar-root .date-details .wedding-location {
   margin: 1rem;
   font-size: 19px;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .App .nav-bar .MuiToolbar-root .date-details .wedding-date {
   margin: 1rem;
   font-size: 19px;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .photos {
@@ -212,9 +211,9 @@
   width: 100%;
   display: flex;
   display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -ms-flexbox;
 }
 
 .rosecliff-photo {
@@ -222,9 +221,9 @@
   width: 100%;
   display: flex;
   display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -ms-flexbox;
 }
 
 .photos .photo {
@@ -237,12 +236,12 @@
 .App .nav-bar .MuiToolbar-root .links {
   display: flex;
   display: -webkit-box;
-     display: -moz-box;
-     display: -ms-flexbox;
-     display: -ms-flexbox;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -ms-flexbox;
   flex-direction: row;
   list-style: none;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 19px;
 }
 
@@ -254,7 +253,7 @@
 .App .nav-bar .MuiToolbar-root .links .link a {
   color: #041e42;
   text-decoration: none;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .landing-page .rosecliff-mansion {
@@ -265,9 +264,9 @@
 .landing-page-details {
   display: flex;
   display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -ms-flexbox;
   flex-direction: column;
   align-items: center;
   width: 100%;
@@ -277,7 +276,7 @@
   width: 65rem;
 }
 
-.horizontal-photo .rotate{
+.horizontal-photo .rotate {
   width: 65rem;
 }
 
@@ -285,10 +284,9 @@
   width: 29rem;
 }
 
-.photos-row .rotate{
+.photos-row .rotate {
   width: 29rem;
 }
-
 
 .photo-one {
   height: 100%;
@@ -296,21 +294,21 @@
 }
 
 .App .landing-page .landing-page-details .date-details .wedding-date {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 2.6875rem;
 }
 
 .App .landing-page .landing-page-details .date-details .wedding-location {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 2.6875rem;
 }
 
 .App .landing-page .landing-page-details .date-details {
   display: flex;
   display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -ms-flexbox;
   flex-direction: row;
   text-align: center;
   margin-bottom: 5rem;
@@ -325,47 +323,47 @@
 .App .landing-page .landing-page-details .date-details .day-details {
   display: flex;
   display: -webkit-box;
-     display: -moz-box;
-     display: -ms-flexbox;
-     display: -ms-flexbox;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -ms-flexbox;
   flex-direction: column;
 }
 
 .App .landing-page .landing-page-details .date-details .location-details {
   display: flex;
   display: -webkit-box;
-     display: -moz-box;
-     display: -ms-flexbox;
-     display: -ms-flexbox;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -ms-flexbox;
   flex-direction: column;
 }
 
 .App .landing-page .landing-page-details .date-details .day {
   font-size: 40px;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
-.App .landing-page .landing-page-details .date-details .city{
+.App .landing-page .landing-page-details .date-details .city {
   font-size: 40px;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .App .landing-page .landing-page-details .date-details .year {
   font-size: 19px;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .App .landing-page .landing-page-details .date-details .state {
   font-size: 19px;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .schedule {
   display: flex;
   display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -ms-flexbox;
   flex-direction: column;
   justify-content: center;
   margin-top: 10rem;
@@ -375,13 +373,12 @@
 .schedule .column {
   display: flex;
   display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -ms-flexbox;
   flex-direction: row;
   justify-content: center;
 }
-
 
 .left-column {
   width: 50%;
@@ -389,7 +386,7 @@
 }
 
 .left-column .details .details-title {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 3.25rem;
   color: #041e42;
   font-weight: 400;
@@ -402,7 +399,7 @@
 }
 
 .left-column .details .detail {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   color: #041e42;
 }
 
@@ -424,19 +421,19 @@
 }
 
 .right-column .details .details-title {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 3.25rem;
   color: #041e42;
   font-weight: 400;
 }
 
 .right-column .details .detail {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   color: #041e42;
 }
 
 .travel .detail-note {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   color: #041e42;
   margin-right: 10rem;
   margin-left: 5rem;
@@ -467,9 +464,8 @@
   margin-top: 5rem;
 }
 
-
 .schedule .map-btn a {
-  color:#041e42;
+  color: #041e42;
   padding: 1rem;
   border: 1px solid #041e42;
   background-color: rgba(255, 255, 255);
@@ -482,7 +478,6 @@
   color: rgba(255, 255, 255);
 }
 
-
 /* Travel */
 
 .travel {
@@ -490,9 +485,9 @@
   margin-bottom: 10rem;
   display: flex;
   display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -ms-flexbox;
   flex-direction: column;
   justify-content: center;
   text-align: center;
@@ -509,7 +504,7 @@
 }
 
 .travel .left-column .details .details-title {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 3.25rem;
   color: #041e42;
   font-weight: 400;
@@ -517,7 +512,7 @@
 }
 
 .travel .left-column .details .detail {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   color: #041e42;
 }
 
@@ -555,12 +550,12 @@
 .App .nav-bar .mobile-nav-list .MuiTypography-root {
   display: flex;
   display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -ms-flexbox;
   flex-direction: row;
   list-style: none;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 19px;
 }
 
@@ -573,7 +568,7 @@
 }
 
 .travel .right-column .details .details-title {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 3.25rem;
   color: #041e42;
   font-weight: 400;
@@ -581,22 +576,22 @@
 }
 
 .travel .right-column .details .detail {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   color: #041e42;
 }
 
 .travel .column {
   display: flex;
   display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -ms-flexbox;
   flex-direction: row;
   text-align: center;
 }
 
 .travel .map-btn a {
-  color:#041e42;
+  color: #041e42;
   padding: 1rem;
   border: 1px solid #041e42;
   background-color: rgba(255, 255, 255);
@@ -610,7 +605,7 @@
 }
 
 .schedule .column .left-column .details-title {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 3.25rem;
 }
 
@@ -620,9 +615,9 @@
   display: flex;
   flex-direction: column;
   display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -ms-flexbox;
   margin-top: 10rem;
   margin-bottom: 10rem;
 }
@@ -630,13 +625,13 @@
 .things-to-do .column {
   display: flex;
   display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -ms-flexbox;
 }
 
 .things-to-do .map-btn a {
-  color:#041e42;
+  color: #041e42;
   padding: 1rem;
   border: 1px solid #041e42;
   background-color: rgba(255, 255, 255);
@@ -649,7 +644,7 @@
   color: rgba(255, 255, 255);
 }
 
-.things-to-do .things-to-do-img  {
+.things-to-do .things-to-do-img {
   width: 100%;
   height: auto;
 }
@@ -677,15 +672,15 @@
 .App .registry .registry-links {
   display: flex;
   display: -webkit-box;
-     display: -moz-box;
-     display: -ms-flexbox;
-     display: -ms-flexbox;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -ms-flexbox;
   flex-direction: column;
   align-items: center;
 }
 
 .App .registry .registry-link {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 1.25rem;
   color: #041e42;
   font-weight: 400;
@@ -693,7 +688,7 @@
 }
 
 .App .registry .details-title {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 3.25rem;
   color: #041e42;
   font-weight: 400;
@@ -704,9 +699,9 @@
 .App .photos {
   display: flex;
   display: -webkit-box;
-     display: -moz-box;
-     display: -ms-flexbox;
-     display: -ms-flexbox;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -ms-flexbox;
   flex-direction: row;
 }
 
@@ -719,9 +714,9 @@
   .App .photos {
     display: flex;
     display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -ms-flexbox;
     flex-direction: column;
   }
 
@@ -734,7 +729,7 @@
 }
 
 @media (min-width: 768px) {
-  .App .nav-bar .MuiButtonBase-root  {
+  .App .nav-bar .MuiButtonBase-root {
     display: none;
   }
   .makeStyles-drawer-6 {
@@ -768,9 +763,9 @@
   .mobile-nav-list {
     display: flex;
     display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -ms-flexbox;
     flex-direction: column;
   }
 
@@ -786,15 +781,15 @@
     font-size: 1.5rem;
     display: flex;
     display: -webkit-box;
-     display: -moz-box;
-     display: -ms-flexbox;
-     display: -ms-flexbox;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -ms-flexbox;
   }
   .mobile-nav-list li {
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
-  .makeStyles-drawerHeader-8  {
+  .makeStyles-drawerHeader-8 {
     justify-content: flex-start;
   }
   .MuiList-root .mobile-nav-list .MuiList-padding {
@@ -815,7 +810,7 @@
   .App .landing-page .names .name {
     font-size: 2rem;
   }
-  .App .landing-page .names  {
+  .App .landing-page .names {
     margin-top: 5rem;
     margin-bottom: 5rem;
   }
@@ -827,17 +822,17 @@
     margin-bottom: 0;
     display: flex;
     display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -ms-flexbox;
     flex-direction: column;
   }
   .travel {
     display: flex;
     display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -ms-flexbox;
     flex-direction: column;
     margin-top: 5rem;
   }
@@ -896,9 +891,9 @@
   .landing-page .photos {
     display: flex;
     display: -webkit-box;
-     display: -moz-box;
-     display: -ms-flexbox;
-     display: -ms-flexbox;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -ms-flexbox;
     flex-direction: column;
     margin-bottom: 5rem;
   }
@@ -916,9 +911,9 @@
   .App .nav-bar .MuiToolbar-root {
     display: flex;
     display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -ms-flexbox;
     flex-direction: row;
   }
   .App .nav-bar .MuiToolbar-root .makeStyles-menuButton-4 {
@@ -934,9 +929,9 @@
   .things-to-do .column {
     display: flex;
     display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: -ms-flexbox;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -ms-flexbox;
     flex-direction: column;
     align-items: center;
     width: 100%;
@@ -960,12 +955,12 @@
     margin-bottom: 0;
     width: auto;
   }
-   .photos-row .photo-vertical {
+  .photos-row .photo-vertical {
     width: 20rem;
   }
   .photos-row .horizontal-photo {
-   width: 20rem;
- }
+    width: 20rem;
+  }
   .photos-page .photo {
     margin-top: 5rem;
   }
